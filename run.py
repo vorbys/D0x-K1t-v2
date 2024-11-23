@@ -101,7 +101,7 @@ class Doxkit(db.Model):
 # Helper function for signal Handler to kill safely 
 # as well as actual application
 def signal_handler(signal, frame):
-    print "\033[1;32m\nKilling D0xk1t. Thanks for playing!\033[0m"
+    print ("\033[1;32m\nKilling D0xk1t. Thanks for playing!\033[0m")
     sys.exit(0)
         
 # Helper function for deserializing model to yaml
